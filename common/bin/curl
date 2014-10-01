@@ -1,0 +1,8 @@
+#!/bin/sh
+LD_LIBRARY_PATH="/home/tim/nginxstack-1.6.2-0/common/lib:$LD_LIBRARY_PATH"
+DYLD_LIBRARY_PATH="/home/tim/nginxstack-1.6.2-0/common/lib:$DYLD_LIBRARY_PATH"
+CURL_CA_BUNDLE="/home/tim/nginxstack-1.6.2-0/common/openssl/certs/curl-ca-bundle.crt"
+export LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH
+export CURL_CA_BUNDLE
+exec /home/tim/nginxstack-1.6.2-0/common/bin/curl.bin "$@"

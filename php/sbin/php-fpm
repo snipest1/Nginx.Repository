@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/tim/nginxstack-1.6.2-0/scripts/setenv.sh
+
+exec /home/tim/nginxstack-1.6.2-0/php/sbin/.php-fpm.bin -y /home/tim/nginxstack-1.6.2-0/php/etc/php-fpm.conf -p /home/tim/nginxstack-1.6.2-0/php/var/ -c /home/tim/nginxstack-1.6.2-0/php/etc/php.ini "$@"

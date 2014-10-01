@@ -1,0 +1,8 @@
+[27-Sep-2014 18:35:39] NOTICE: configuration file /home/tim/nginxstack-1.6.2-0/php/etc/php-fpm.conf test is successful
+
+[27-Sep-2014 18:35:39] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[27-Sep-2014 18:35:39] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[01-Oct-2014 13:15:57] NOTICE: configuration file /home/tim/nginxstack-1.6.2-0/php/etc/php-fpm.conf test is successful
+
+[01-Oct-2014 13:15:57] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[01-Oct-2014 13:15:57] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root

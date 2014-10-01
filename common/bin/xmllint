@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/tim/nginxstack-1.6.2-0/scripts/setenv.sh
+
+exec /home/tim/nginxstack-1.6.2-0/common/bin/.xmllint.bin  "$@"

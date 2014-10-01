@@ -1,0 +1,4 @@
+#!/bin/sh
+. /home/tim/nginxstack-1.6.2-0/php/../scripts/setenv.sh
+
+exec /home/tim/nginxstack-1.6.2-0/php/bin/composer.phar "$@"
